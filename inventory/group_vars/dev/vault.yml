@@ -1,0 +1,6 @@
+# TODO: replace this passphrase before running the setup playbook.
+# setup will use it for the SSH keys it will generate.
+# along with the keys, it will generate a vault password in a subdirectory of ~/.ssh
+# edit ansible.cfg with the path to the vault pass, and then encrypt this file:
+# $ ansible-vault encrypt inventory/group_vars/dev/vault.yml
+vault_login_user_passphrase: "REPLACE THIS PASSPHRASE BEFORE USING"
