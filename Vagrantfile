@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
     config.vm.define short_name do |host|
       host.vm.network 'private_network', ip: ip
       # NOTE: currently set to alternate ports to not conflict with GalaxyKickStart
-      host.vm.network "forwarded_port", guest: 80, host: 8081
+      host.vm.network "forwarded_port", guest: 8080, host: 8081
       host.vm.network "forwarded_port", guest: 21, host: 2122
       host.vm.hostname = "#{short_name}.#{domain}"
       # presumes installation of https://github.com/cogitatio/vagrant-hostsupdater on host
