@@ -1,0 +1,5 @@
+- name: install immport-galaxy
+  hosts: all
+
+  roles:
+  - { role: immport, tags: ['immport'] }
