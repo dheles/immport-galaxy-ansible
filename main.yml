@@ -1,2 +1,3 @@
 ---
+- include: playbooks/R.yml
 - include: playbooks/immport.yml

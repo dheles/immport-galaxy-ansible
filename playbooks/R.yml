@@ -1,0 +1,6 @@
+---
+- name: install R
+  hosts: all
+
+  roles:
+  - { role: R, tags: ['R'] }

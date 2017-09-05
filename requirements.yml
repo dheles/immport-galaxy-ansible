@@ -10,3 +10,6 @@
 
 - src: https://github.com/dheles/immport-galaxy-ansible-role
   name: immport
+
+- src: https://github.com/dheles/r-ansible-role
+  name: R
