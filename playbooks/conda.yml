@@ -1,0 +1,6 @@
+---
+- name: install conda
+  hosts: all
+
+  roles:
+  - { role: conda, tags: ['conda'] }

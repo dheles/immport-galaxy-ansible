@@ -1,3 +1,4 @@
 ---
 - include: playbooks/R.yml
+- include: playbooks/conda.yml
 - include: playbooks/immport.yml

@@ -13,3 +13,6 @@
 
 - src: https://github.com/dheles/r-ansible-role
   name: R
+
+- src: https://github.com/dheles/conda-ansible-role.git
+  name: conda
